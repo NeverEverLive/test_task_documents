@@ -16,7 +16,7 @@ class Document(db.Model):
 
     @classmethod
     def get_all(cls):
-        return cls.query.all()
+        return cls.query.order_by(Document.id).all()
 
     @classmethod
     def get_by_id(cls, id):
@@ -29,3 +29,5 @@ class Document(db.Model):
     def delete(self):
         db.session.delete(self)
         db.session.commit()
+
+    #validate functions if need

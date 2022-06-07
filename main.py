@@ -1,8 +1,5 @@
-from sqlalchemy import create_engine
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy.sql import func
-from marshmallow import Schema, fields
 
 
 app = Flask(__name__)
@@ -19,3 +16,5 @@ if __name__ == "__main__":
     app.register_blueprint(view)
     app.run(debug=True)
     
+    # Document.__table__.columns
+    # Document.__table__.foreign_keys
