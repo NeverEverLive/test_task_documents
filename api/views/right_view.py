@@ -3,7 +3,7 @@ from sqlalchemy import inspect
 
 
 from ..models import Right
-from main import db
+from app import db
 from ..serializers import RightSchema
 
 

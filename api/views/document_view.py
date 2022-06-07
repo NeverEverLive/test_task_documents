@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, request
 from sqlalchemy import inspect
 
 from ..models import Document
-from main import db
+from app import db
 from ..serializers import DocumentSchema
 
 

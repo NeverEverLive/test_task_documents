@@ -1,4 +1,4 @@
-from main import db
+from app import db
 from sqlalchemy.sql import func
 from sqlalchemy.orm import relationship
 
