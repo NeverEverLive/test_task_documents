@@ -13,4 +13,5 @@ if __name__ == "__main__":
     from api.views import document_view, right_view
     app.register_blueprint(document_view.documents)
     app.register_blueprint(right_view.rights)
-    app.run(debug=True)
+    db.create_all()
+    app.run(debug=True, host='0.0.0.0')

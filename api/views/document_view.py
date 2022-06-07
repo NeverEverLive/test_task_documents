@@ -8,6 +8,10 @@ from ..serializers import DocumentSchema
 
 documents = Blueprint('documents', __name__)
 
+@documents.route('/')
+def home():
+    return {"message":"hello"}
+
 
 @documents.get('/document')
 def get_all_documents():
