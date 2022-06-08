@@ -5,7 +5,7 @@ For lauch the application need:
 ```bash
     git clone https://github.com/NeverEverLive/test_task_documents.git
 ```
-2. create .env file from example or use my file:
+2. create .env file from example or use my file: <br />
     Example
 ```
     POSTGRES_USER = nel
@@ -29,5 +29,5 @@ if use my file:
 
 ### This completes the project setup.
 
-Test task.postman_collection.json - file with JSON requests
+Test task.postman_collection.json - file with JSON requests <br />
 document_test.sql - file for load data to database
