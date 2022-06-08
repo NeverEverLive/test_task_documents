@@ -28,3 +28,6 @@ if use my file:
 ```
 
 ### This completes the project setup.
+
+Test task.postman_collection.json - file with JSON requests
+document_test.sql - file for load data to database
